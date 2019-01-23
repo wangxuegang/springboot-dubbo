@@ -18,12 +18,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
  * @version v1.0
  */
 @SpringBootApplication
-public class UserApplication extends SpringBootServletInitializer  {
-	
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(UserApplication.class);
-	}
+public class UserApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(UserApplication.class, args);

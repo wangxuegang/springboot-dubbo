@@ -28,7 +28,8 @@ import com.wangxuegang.user.service.UserService;
 @RestController
 public class UserController {
 	
-	@Reference(version = "1.0.0")
+	/** 设置 dubbo 超时时间为 5 秒 */
+	@Reference(version = "1.0.0",timeout = 5000)
 	private UserService userService;
 	
 	@GetMapping("/test")

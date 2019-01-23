@@ -20,12 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @SpringBootApplication
 @RestController
-public class UserControllerApplication extends SpringBootServletInitializer {
-
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(UserControllerApplication.class);
-	}
+public class UserControllerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(UserControllerApplication.class, args);
