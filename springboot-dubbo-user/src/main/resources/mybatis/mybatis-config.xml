@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+	<settings>
+		<!-- 开启结果集自动映射（驼峰命名） -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+	
+	<!-- 设置实体类别名，不设置默认实体类名（不区分大小写） -->
+	<typeAliases>
+		<typeAlias alias="UserEntity" type="com.wangxuegang.user.entity.UserEntity" />
+	</typeAliases>
+	
+</configuration>
