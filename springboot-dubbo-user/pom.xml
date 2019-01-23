@@ -9,17 +9,17 @@
 	<groupId>com.wangxuegang</groupId>
 	<artifactId>springboot-dubbo-user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>SpringBoot User</name>
 	<description>用户管理</description>
-
+	
 	<dependencies>
+		
 		<!-- springboot-dubbo-api -->
 		<dependency>
 			<groupId>com.wangxuegang</groupId>
 			<artifactId>springboot-dubbo-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
 	</dependencies>
-
 </project>
